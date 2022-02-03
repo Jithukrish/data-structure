@@ -61,7 +61,10 @@ void display(struct bit a[])
 	  {
 		if(a[i].x==(unsigned char)1)
 		 {
+			printf(" ");
 			printf("%d",u[i]);
+			printf(" ");
+
 		 }
 	  }
 	  printf("}");
